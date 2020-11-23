@@ -14,7 +14,8 @@ output = "mymod:mycraft",
 recipe = {
 {"mymod:myitem", "" },
 {"mymod:myitem","mymod:myitem"},
-{"mymod:myitem","mymod:myitem"})
+{"mymod:myitem","mymod:myitem"}
+})
 
 minetest.register_tool("mymod:mytool", {
 description = "My Tool",
