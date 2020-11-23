@@ -2,7 +2,8 @@
 minetest.register_node("orichalcum:stone_with_orichalcum", {
 description = "Orichalcum",
 tiles = {"ori_stone.png"},
-groups = {cracky=3}
+groups = {snappy = 1, bendy = 2, cracky = 1, melty = 2, level = 2},
+sounds = default_metal_sounds,
 drop = "orichalcum:orichalcum_lump"
 })
 
@@ -43,7 +44,7 @@ minetest.register_craft({
 
 
 -- SWORD
-minetest.register_tool(" orichalcum:sword_orichalcum ", {
+minetest.register_tool("orichalcum:sword_orichalcum", {
 description = "Orichalcum Sword",
 inventory_image = "ori_sword.png",
 tool_capabilities = {
@@ -73,7 +74,7 @@ recipe = {
 
 
 -- PICKAXE
-minetest.register_tool(" orichalcum:pickaxe_orichalcum ", {
+minetest.register_tool("orichalcum:pickaxe_orichalcum", {
 description = "Orichalcum Pickaxe",
 inventory_image = "ori_pickaxe.png",
 tool_capabilities = {
@@ -103,7 +104,7 @@ recipe = {
 
 
 -- AXE
-minetest.register_tool(" orichalcum:axe_orichalcum ", {
+minetest.register_tool("orichalcum:axe_orichalcum", {
 description = "Orichalcum Axe",
 inventory_image = "ori_axe.png",
 tool_capabilities = {
@@ -133,7 +134,7 @@ recipe = {
 
 
 -- SHOVEL
-minetest.register_tool(" orichalcum:shovel_orichalcum ", {
+minetest.register_tool("orichalcum:shovel_orichalcum", {
 description = "Orichalcum Shovel",
 inventory_image = "ori_shovel.png",
 tool_capabilities = {
