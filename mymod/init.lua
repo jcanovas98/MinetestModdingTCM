@@ -32,3 +32,4 @@ times = { [1]=1.60, [2]=1.20, [3]=0.80 }
 damage_groups = {fleshy=2},
 },
 })
+agasanajeje
