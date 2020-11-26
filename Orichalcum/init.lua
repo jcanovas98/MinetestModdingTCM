@@ -51,7 +51,7 @@ tool_capabilities = {
 full_punch_interval = 0.5,
 max_drop_level = 1,
 groupcaps = {
-crumbly = {
+fleshy = {
 maxlevel = 2,
 uses = 200,
 times = { [1]=1.60, [2]=1.20, [3]=0.80 }
@@ -81,7 +81,7 @@ tool_capabilities = {
 full_punch_interval = 0.5,
 max_drop_level = 1,
 groupcaps = {
-crumbly = {
+cracky = {
 maxlevel = 2,
 uses = 200,
 times = { [1]=1.60, [2]=1.20, [3]=0.80 }
@@ -111,7 +111,7 @@ tool_capabilities = {
 full_punch_interval = 0.5,
 max_drop_level = 1,
 groupcaps = {
-crumbly = {
+choppy = {
 maxlevel = 2,
 uses = 200,
 times = { [1]=1.60, [2]=1.20, [3]=0.80 }
