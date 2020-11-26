@@ -51,3 +51,11 @@ minetest.register_abm({
     end
 })
 
+--[[Cogiendo como referencia el codigo de ejemplo visto antes, cargaremos el content id de los
+nodos default:dirt y rot:dirt, crearemos una función purge_rotdirt(pos, size) donde le
+pasaremos una posición y en un cubo de tamaño size con centro pos convertiremos todos los
+nodos de rot:dirt en default:dirt.
+Por ultimo solo nos faltaria crear un ABM para el nodo rot:purgator para llamar a nuestra
+función purge_rotdirt y asi eliminar los nodos de tierra enferma.--]]
+
+
