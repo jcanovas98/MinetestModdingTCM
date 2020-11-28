@@ -1,8 +1,7 @@
 -- teleport cube
 minetest.register_node("teleport:teleport_pad", {
 description = "teleport",
-tiles = {"teleport_node.png",  -- z-
-      },
+tiles = {"teleport_node.png"},
 groups = {cracky=3}
 })
 
