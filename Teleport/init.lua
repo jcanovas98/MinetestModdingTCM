@@ -27,7 +27,8 @@ minetest.register_craftitem("teleport:teleport_command", {
     inventory_image = "teleport_controller.png",
     on_use = function(itemstack, user, pointed_thing)
         local meta = itemstack:get_meta()
-        local pos = {x=meta:get_int("x"), y=meta:get_int("y"), z=meta:get_int("z")
-        
+        local pos = {x=meta:get_int("x"), y=meta:get_int("y"), z=meta:get_int("z")}
+        user:set_pos(pos)
       end
+
 })
